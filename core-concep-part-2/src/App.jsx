@@ -20,7 +20,11 @@ function App() {
 
       <h1>Hi I am Rasel</h1>
       <button onClick={handleClick}>Click me</button>
+      {/* type 2  */}
       <buttton onClick={handleClick2}>Click me 2</buttton>
+
+      {/* type 3   */}
+      <button onClick={() => { alert('thard click') }}>thard</button>
 
     </>
   )
