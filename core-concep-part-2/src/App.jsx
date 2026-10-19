@@ -14,6 +14,12 @@ function App() {
     alert('button 2 clicked')
   }
 
+  // type 4
+  const AddToFive = (num) => {
+    alert(num + 5);
+  }
+
+
 
   return (
     <>
@@ -25,6 +31,9 @@ function App() {
 
       {/* type 3   */}
       <button onClick={() => { alert('thard click') }}>thard</button>
+
+      {/* type 4 */}
+      <button onClick={() => AddToFive(3)}>foure</button>
 
     </>
   )
