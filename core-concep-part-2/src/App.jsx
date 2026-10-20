@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Counter from './counter'
+import Team from './Team'
 
 function App() {
   function handleClick() {
@@ -21,8 +22,12 @@ function App() {
   }
   return (
     <>
+
+      <Team></Team>
+
       <Counter></Counter>
       <h1>Hi I am Rasel</h1>
+
       <button onClick={handleClick}>Click me</button>
       {/* type 2  */}
       <buttton onClick={handleClick2}>Click me 2</buttton>
